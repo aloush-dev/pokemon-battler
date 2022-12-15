@@ -56,7 +56,7 @@ describe("Pokemon", () => {
       expect(eevee.hasFainted()).toBe(false);
     });
     test("should return true if the pokemons health is at 0", () => {
-      const eevee = new Pokemon("Eevee");
+   \   const eevee = new Pokemon("Eevee");
       eevee.takeDamage(50);
       expect(eevee.hasFainted()).toBe(true);
     });
